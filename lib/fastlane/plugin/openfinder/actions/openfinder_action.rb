@@ -7,7 +7,7 @@ module Fastlane
       def self.run(params)
 
         path = params[:path]
-        system("open #{path}") if path
+        system("open #{path}")
 
       end
 

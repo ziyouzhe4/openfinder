@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
 lane :test do
-  # openfinder
+  openfinder(path: Dir.pwd)
 end
