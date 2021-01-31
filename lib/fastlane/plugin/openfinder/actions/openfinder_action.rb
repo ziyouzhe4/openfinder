@@ -8,9 +8,7 @@ module Fastlane
 
         path = params[:path]
         system("open #{path}")
-
-        # Fastlane::Helper::OpenfinderHelper.show_message()
-
+        
       end
 
       def self.description
